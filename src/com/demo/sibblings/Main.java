@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.demo.bstsum;
+package com.demo.sibblings;
 
 /**
  * @author marklapointe
