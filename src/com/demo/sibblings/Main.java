@@ -115,13 +115,7 @@ class Node {
 	}
 
 
-	private void ordered_insert_right (Integer data) {
-		if (this.right == null) {
-			this.right = new Node(data);
-		} else {
-			this.right.ordered_insert(data);
-		}
-	}
+
 
 
 
@@ -161,6 +155,14 @@ class Node {
 		return;
 	}
 
+	private void ordered_insert_right (Integer data) {
+		if (this.right == null) {
+			this.right = new Node(data);
+		} else {
+			this.right.ordered_insert(data);
+		}
+	}
+	
 	private void ordered_insert_left (Integer data) {
 		if (this.left == null) {
 			this.left = new Node(data);
